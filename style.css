@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    font-family: Lato;
+
+}
+body{
+    background-image: url(cabbages.jpg);
+    background-size: cover;
+}
+
+.head{
+    margin: 20px;
+    color: white;
+}
+
+.form_div {
+    width: 50vw;
+    border: 1px solid rgb(181, 197, 174);
+    margin:auto;
+    color:grey;
+    background:rgba(255,255,255,0.5);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+button{
+    color: grey;
+    font-size: 1em;
+    width: 49.7%;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+input{
+    width: 96%;
+    padding: 10px;
+    margin: auto;
+    border-radius:2px;
+
+}
+.register, .head{
+    text-align: center;
+    color:rgba(60, 67, 75, 0.493);
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.head{
+    color:aliceblue;
+    font-size: 1.5em;
+}
+select { 
+    width: 100%;
+    padding: 2px;
+    font-size: 1.2em;
+    color:grey;
+    border-radius: 2px;
+}
